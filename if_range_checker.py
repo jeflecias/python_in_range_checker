@@ -24,7 +24,6 @@ while True:
             range_50_counter += 1
         else:
             raise
-        break
     except:
         print("Invalid input! Now displaying numbers in the following ranges. ")
         print(f"In the range of 1-10, there are {range_10_counter} numbers.")
@@ -32,3 +31,4 @@ while True:
         print(f"In the range of 21-30, there are {range_30_counter} numbers.")
         print(f"In the range of 31-40, there are {range_40_counter} numbers.")
         print(f"In the range of 41-50, there are {range_50_counter} numbers.")
+        break
